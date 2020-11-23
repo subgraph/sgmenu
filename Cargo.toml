@@ -7,7 +7,7 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-gtk-layer-shell-rs = { path = "gtk-layer-shell-rs/" }
+gtk-layer-shell-rs = { path = "vendor/gtk-layer-shell-rs/" }
 log = "0.4.11"
 env_logger = "0.7.1"
 gtk = { version = "0.9.0", features = ["v3_16"] }
