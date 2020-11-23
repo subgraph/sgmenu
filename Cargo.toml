@@ -1,0 +1,18 @@
+[package]
+name = "sgmenu"
+version = "0.1.0"
+authors = ["David McKinney <mckinney@subgraph.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+gtk-layer-shell-rs = { path = "gtk-layer-shell-rs/" }
+log = "0.4.11"
+env_logger = "0.7.1"
+gtk = { version = "0.9.0", features = ["v3_16"] }
+gdk = "0.13.2"
+gio = { version = "0.9.1", features = ["v2_64"] }
+glib = "0.10.2"
+pango = "0.9.1"
+gdk-pixbuf = "0.9.0"
